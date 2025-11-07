@@ -5,6 +5,13 @@ public class Fecha {
 	private int mes;
 	private int dia;
 	
+	public Fecha(int anio, int mes, int dia) {
+		
+		this.anio=anio;
+		this.mes=mes;
+		this.dia=dia;
+	}
+	
 	public int getAnio() {
 		return anio;
 	}
@@ -23,6 +30,10 @@ public class Fecha {
 	public void setDia(int dia) {
 		this.dia = dia;
 	}
+	public void mostrarFecha() {
+        System.out.println("Fecha: " + dia + "/" + mes + "/" + anio);
+    }
+
 	
 	
 
