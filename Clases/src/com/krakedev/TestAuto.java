@@ -5,7 +5,7 @@ public class TestAuto {
 	public static void main(String[] args) {
 		
 		Auto auto1 = new Auto();
-		Auto auto2 = new Auto();
+		
 		
 		auto1.setMarca("TOYOTA");
 		auto1.setAnio (2022);
