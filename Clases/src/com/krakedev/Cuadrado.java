@@ -9,5 +9,10 @@ public class Cuadrado {
 		
 		
 	}	
+	public int calcularPerimetro() {
+		int perimetro;
+		perimetro = 4 * lado;
+		return perimetro;
+	}
 
 }
