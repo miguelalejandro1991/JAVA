@@ -4,7 +4,7 @@ public class TestAuto {
 
 	public static void main(String[] args) {
 		
-		Auto auto1 = new Auto();
+		Auto auto1 = new Auto("HONDA");
 		
 		
 		auto1.setMarca("TOYOTA");

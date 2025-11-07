@@ -3,9 +3,11 @@ package com.krakedev;
 public class TestPersona {
 
 	public static void main(String[] args) {
-		Persona p; // 1. Declaro una variable llamada p de tipo persona 
+		Persona p=new Persona(); // 1. Declaro una variable llamada p de tipo persona 
 		Persona p2=new Persona();
-		p = new Persona (); // 2. Instanciar un objeto Persona, referenciarlo con p 
+		Persona p3=new Persona("JOSSELYN");
+		Persona p4=new Persona("CARLOS",25,1.75);
+		 
 		// 3. accedo a los atributos 
 		System.out.println("nombre:" +p.getNombre());
 		System.out.println("edad:" +p.getEdad());
