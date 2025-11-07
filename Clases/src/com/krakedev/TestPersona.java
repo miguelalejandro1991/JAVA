@@ -7,36 +7,36 @@ public class TestPersona {
 		Persona p2=new Persona();
 		p = new Persona (); // 2. Instanciar un objeto Persona, referenciarlo con p 
 		// 3. accedo a los atributos 
-		System.out.println("nombre:" +p.nombre);
-		System.out.println("edad:" +p.edad);
-		System.out.println("estatura:" +p.estatura);
+		System.out.println("nombre:" +p.getNombre());
+		System.out.println("edad:" +p.getEdad());
+		System.out.println("estatura:" +p.getEstatura());
 		
 		//4. Modificar los atributos
-		p.nombre = "Miguel";
-	    p.edad = 34;
-	    p.estatura = 1.56;
+		p.setNombre("Miguel");
+	    p.setEdad(34);
+	    p.setEstatura(1.56);
 	    System.out.println("---------------");
 	    	    
 	    //5. acceso a los atributos
-	    System.out.println("nombre:" +p.nombre);
-		System.out.println("edad:" +p.edad);
-		System.out.println("estatura:" +p.estatura);   	    
+	    System.out.println("nombre:" +p.getNombre());
+		System.out.println("edad:" +p.getEdad());
+		System.out.println("estatura:" +p.getEstatura());   	    
 	    
 		
 		
-		p2.nombre="Josselyn";
-		p2.edad=28;
-		p2.estatura=1.55;
+		p2.setNombre("Josselyn");
+		p2.setEdad(28);
+		p2.setEstatura(1.55);
 		
-		System.out.println("nombre:" +p2.nombre);
-		System.out.println("edad:" +p2.edad);
-		System.out.println("estatura:" +p2.estatura);   
+		System.out.println("nombre:" +p2.getNombre());
+		System.out.println("edad:" +p2.getEdad());
+		System.out.println("estatura:" +p2.getEstatura());   
 		
 		System.out.println("-------------");
 		
 		System.out.println("********");
-		System.out.println("p.nombre:" +p.nombre);
-		System.out.println("p2.nombre:" +p2.nombre);
+		System.out.println("p.nombre:" +p.getNombre());
+		System.out.println("p2.nombre:" +p2.getNombre());
 		
 		
 		
